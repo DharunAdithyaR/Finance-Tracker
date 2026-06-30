@@ -33,8 +33,7 @@ function Budget() {
           Budget Planner
         </h1>
 
-        <BudgetAlert summary={summary} />
-
+        
         <div className="mt-6">
           <BudgetPlanner />
         </div>

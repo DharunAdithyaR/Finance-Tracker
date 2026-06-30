@@ -17,11 +17,12 @@ return ( <div className="w-64 min-h-screen fixed left-0 top-0 bg-gradient-to-b f
   {/* Logo */}
   <div className="p-6 border-b border-white/20">
 
-    <h1 className="text-3xl font-bold">
-      💰 Budget Buddy
-    </h1>
+    <h1 className="text-4xl font-bold leading-tight">
+  <span className="block">💰Budget</span>
+  <span className="block ml-10">Buddy</span>
+</h1>
 
-    <p className="text-sm text-gray-200 mt-2">
+    <p className="text-sm text-gray-200 mt-2text-sm mt-3 text-white/80 text-center">
       Personal Finance Manager
     </p>
 

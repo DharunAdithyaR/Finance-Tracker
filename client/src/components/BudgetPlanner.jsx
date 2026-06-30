@@ -44,9 +44,7 @@ function BudgetPlanner() {
 
   return (
     <div className="bg-white dark:bg-gray-800 dark:text-white p-5 rounded-lg shadow">
-      <h2 className="text-xl font-bold mb-4">
-        Budget Planner
-      </h2>
+      
 
       <input
         type="number"
