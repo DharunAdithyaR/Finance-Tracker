@@ -1,130 +1,214 @@
-# 💰 Budget Buddy - Finance Tracker
+<div align="center">
 
-A full-stack personal finance management application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). The application helps users manage income and expenses, plan budgets, analyze spending patterns, and generate financial reports.
+# 💰 Budget Buddy
+### AI-Powered Personal Finance Management System
 
-## 🚀 Live Demo
+Manage your income, expenses, budgets, analytics, and financial reports with an intuitive MERN Stack application.
 
-### Frontend
+<p align="center">
+
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green?logo=mongodb)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+
+</p>
+
+</div>
+
+---
+
+# 📖 Overview
+
+**Budget Buddy** is a full-stack MERN application that helps users take complete control of their personal finances.
+
+It allows users to:
+
+- 💵 Track income and expenses
+- 📊 Visualize financial data using interactive charts
+- 🎯 Set monthly budgets
+- 🤖 Receive AI-generated financial insights
+- 📄 Export reports in PDF & CSV formats
+- 🔒 Securely manage their financial data using JWT Authentication
+
+The application is built with scalability, clean UI, and responsive design in mind.
+
+---
+
+# 🚀 Live Demo
+
+### 🌐 Frontend
 
 https://finance-tracker-icqx-six.vercel.app/
 
-### Backend API
+### ⚡ Backend API
 
 https://finance-tracker-backend-8olx.onrender.com/
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-### 🔐 Authentication
+## 🔐 Authentication
 
-* User Registration
-* User Login
-* JWT-based Authentication
-* Protected Routes
-
-### 💳 Transaction Management
-
-* Add Transactions
-* Edit Transactions
-* Delete Transactions
-* Income & Expense Tracking
-* Category-wise Organization
-
-### 📊 Dashboard
-
-* Total Income
-* Total Expenses
-* Current Balance
-* Recent Transactions
-
-### 🎯 Budget Planner
-
-* Set Monthly Budget
-* Track Spending Against Budget
-* Budget Monitoring
-
-### 📈 Analytics
-
-* Income vs Expense Analysis
-* Category-wise Spending Insights
-* Interactive Charts
-
-### 📄 Reports
-
-* Export Financial Reports as PDF
-* Export Transaction Data as CSV
-
-### 👤 Profile Management
-
-* User Profile Information
-* Secure Account Management
+- User Registration
+- Secure Login
+- JWT Authentication
+- Protected Routes
+- Password Encryption using bcrypt
 
 ---
 
-## 🛠️ Tech Stack
+## 💳 Transaction Management
 
-### Frontend
-
-* React.js
-* Vite
-* Tailwind CSS
-* Axios
-* React Router DOM
-* Chart.js
-* React ChartJS 2
-* jsPDF
-* jsPDF AutoTable
-
-### Backend
-
-* Node.js
-* Express.js
-* MongoDB Atlas
-* Mongoose
-* JWT Authentication
-* bcrypt.js
-* CORS
-
-### Deployment
-
-* Frontend: Vercel
-* Backend: Render
-* Database: MongoDB Atlas
-* Version Control: Git & GitHub
+- Add Transactions
+- Edit Transactions
+- Delete Transactions
+- Income & Expense Tracking
+- Category-based Transactions
+- Pagination Support
 
 ---
 
-## 📂 Project Structure
+## 📊 Dashboard
+
+- Financial Summary Cards
+- Current Balance
+- Recent Activity
+- Total Income
+- Total Expenses
+- Transaction Count
+
+---
+
+## 📈 Analytics
+
+- Income vs Expense Pie Chart
+- Comparison Bar Chart
+- Spending Visualization
+- Financial Insights
+
+---
+
+## 🎯 Budget Planner
+
+- Set Monthly Budget
+- Remaining Budget Calculation
+- Budget Usage Percentage
+- Smart Budget Alerts
+
+---
+
+## 🤖 AI Financial Insights
+
+Automatically generates insights such as:
+
+- Savings Rate
+- Highest Spending Category
+- Expense Status
+- Budget Recommendations
+
+---
+
+## 📄 Reports
+
+- Download PDF Financial Report
+- Export Transactions as CSV
+
+---
+
+## 👤 Profile
+
+- User Information
+- Account Summary
+- Total Income
+- Total Expense
+- Current Balance
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+- React.js
+- Vite
+- React Router DOM
+- Axios
+- Chart.js
+- React ChartJS 2
+- jsPDF
+- jsPDF AutoTable
+- CSS3
+
+---
+
+## Backend
+
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose
+- JWT Authentication
+- bcrypt.js
+- CORS
+- dotenv
+
+---
+
+## Database
+
+- MongoDB Atlas
+
+---
+
+## Deployment
+
+| Service | Platform |
+|----------|----------|
+| Frontend | Vercel |
+| Backend | Render |
+| Database | MongoDB Atlas |
+
+---
+
+# 📂 Project Structure
 
 ```text
-Finance-Tracker/
+Budget-Buddy
 │
-├── client/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   └── assets/
-│   │
+├── client
+│   ├── public
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── package.json
+│   └── vite.config.js
+│
+├── server
+│   ├── config
+│   ├── controllers
+│   ├── middleware
+│   ├── models
+│   ├── routes
+│   ├── utils
+│   ├── server.js
 │   └── package.json
 │
-├── server/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   └── server.js
-│
-└── package.json
+├── package.json
+└── README.md
 ```
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
-### Clone Repository
+## 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/DharunAdithyaR/Finance-Tracker.git
@@ -132,7 +216,9 @@ git clone https://github.com/DharunAdithyaR/Finance-Tracker.git
 cd Finance-Tracker
 ```
 
-### Backend Setup
+---
+
+## 2️⃣ Backend Setup
 
 ```bash
 cd server
@@ -140,7 +226,7 @@ cd server
 npm install
 ```
 
-Create a `.env` file:
+Create a **.env**
 
 ```env
 PORT=5000
@@ -150,86 +236,184 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 ```
 
-Start Backend:
+Run Backend
 
 ```bash
 npm run dev
 ```
 
-### Frontend Setup
+---
+
+## 3️⃣ Frontend Setup
 
 ```bash
 cd client
 
 npm install
-```
 
-Start Frontend:
-
-```bash
 npm run dev
 ```
 
 ---
 
-## 📸 Screenshots
+# 📸 Application Screenshots
 
-### Dashboard
+## 🔑 Login
 
-* Financial Summary Cards
-* Recent Transactions
-* Budget Tracking
-
-### Transactions
-
-* Add/Edit/Delete Transactions
-* Paginated Transaction History
-
-### Analytics
-
-* Expense Analysis Charts
-* Category-wise Insights
-
-### Reports
-
-* PDF Report Generation
-* CSV Export
+<img src="./screenshots/login.png" width="100%"/>
 
 ---
 
-## 🔒 Security Features
+## 🏠 Dashboard
 
-* Password Hashing using bcrypt
-* JWT Authentication
-* Protected API Routes
-* Secure User Data Storage
+<img src="./screenshots/dashboard.png" width="100%"/>
 
 ---
 
-## 🎓 Learning Outcomes
+## 💳 Transactions
 
-This project demonstrates:
-
-* Full-Stack MERN Development
-* REST API Development
-* Authentication & Authorization
-* MongoDB Database Design
-* State Management in React
-* Data Visualization
-* Cloud Deployment
-* Git & GitHub Workflow
+<img src="./screenshots/transactions.png" width="100%"/>
 
 ---
 
-## 👨‍💻 Author
+## 📊 Analytics
 
-**Dharun Adithya**
-
-GitHub:
-https://github.com/DharunAdithyaR
+<img src="./screenshots/analytics.png" width="100%"/>
 
 ---
 
-## 📜 License
+## 🎯 Budget Planner
 
-This project is developed for educational and portfolio purposes.
+<img src="./screenshots/budget.png" width="100%"/>
+
+---
+
+## 🤖 AI Insights
+
+<img src="./screenshots/ai-insights.png" width="100%"/>
+
+---
+
+## 📄 Reports
+
+<img src="./screenshots/reports.png" width="100%"/>
+
+---
+
+## 👤 Profile
+
+<img src="./screenshots/profile.png" width="100%"/>
+
+---
+
+# 🔒 Security
+
+- JWT Authentication
+- Password Hashing using bcrypt
+- Protected API Routes
+- User-specific Data Isolation
+- Secure MongoDB Atlas Connection
+
+---
+
+# 📈 REST API Modules
+
+```
+Authentication
+│
+├── Register
+└── Login
+
+Transactions
+│
+├── Add
+├── Edit
+├── Delete
+└── Get All
+
+Budget
+│
+├── Set Budget
+└── Get Budget
+
+Analytics
+│
+├── Income vs Expense
+└── Category Analysis
+
+Reports
+│
+├── PDF Export
+└── CSV Export
+
+Profile
+│
+└── User Summary
+```
+
+---
+
+# 🎯 Key Highlights
+
+✅ MERN Stack Project
+
+✅ JWT Authentication
+
+✅ Responsive Dashboard
+
+✅ Interactive Charts
+
+✅ Monthly Budget Planner
+
+✅ AI Financial Insights
+
+✅ PDF Report Generation
+
+✅ CSV Export
+
+✅ RESTful APIs
+
+✅ MongoDB Atlas Integration
+
+---
+
+# 🎓 Learning Outcomes
+
+This project strengthened my understanding of:
+
+- Full-Stack MERN Development
+- REST API Design
+- Authentication & Authorization
+- MongoDB Data Modeling
+- React State Management
+- Chart.js Data Visualization
+- File Generation (PDF & CSV)
+- Deployment using Vercel & Render
+- Clean UI/UX Design
+- Git & GitHub Workflow
+
+---
+
+# 👨‍💻 Author
+
+## Dharun Adithya R
+
+GitHub
+
+**https://github.com/DharunAdithyaR**
+
+---
+
+# ⭐ Support
+
+If you found this project helpful, consider giving it a **⭐ Star** on GitHub.
+
+It motivates me to build more open-source projects!
+
+---
+
+# 📜 License
+
+This project is licensed under the **MIT License**.
+
+Feel free to use it for learning, personal projects, and portfolio purposes.
