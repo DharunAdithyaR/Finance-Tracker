@@ -1,51 +1,41 @@
 <div align="center">
 
 # 💰 Budget Buddy
+
 ### AI-Powered Personal Finance Management System
 
 Manage your income, expenses, budgets, analytics, and financial reports with an intuitive MERN Stack application.
 
-<p align="center">
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![JWT](https://img.shields.io/badge/Auth-JWT-orange)](https://jwt.io/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-![React](https://img.shields.io/badge/React-19-blue?logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green?logo=mongodb)
-![JWT](https://img.shields.io/badge/Auth-JWT-orange)
-![License](https://img.shields.io/badge/License-MIT-blue)
-![Status](https://img.shields.io/badge/Project-Completed-success)
+### 🚀 Live Demo
 
-</p>
+**Frontend:** https://finance-tracker-icqx-six.vercel.app/
+
+**Backend:** https://finance-tracker-backend-8olx.onrender.com/
 
 </div>
 
 ---
 
-# 📖 Overview
+# 📖 About
 
-**Budget Buddy** is a full-stack MERN application that helps users take complete control of their personal finances.
+**Budget Buddy** is a full-stack **MERN** Personal Finance Management System that helps users manage their finances efficiently.
 
-It allows users to:
+The application enables users to:
 
-- 💵 Track income and expenses
-- 📊 Visualize financial data using interactive charts
-- 🎯 Set monthly budgets
-- 🤖 Receive AI-generated financial insights
-- 📄 Export reports in PDF & CSV formats
-- 🔒 Securely manage their financial data using JWT Authentication
+- 💰 Track income and expenses
+- 📊 Analyze spending through interactive charts
+- 🎯 Plan monthly budgets
+- 🤖 View AI-generated financial insights
+- 📄 Export reports in PDF and CSV formats
+- 🔒 Secure their account using JWT Authentication
 
-The application is built with scalability, clean UI, and responsive design in mind.
-
----
-
-# 🚀 Live Demo
-
-### 🌐 Frontend
-
-https://finance-tracker-icqx-six.vercel.app/
-
-### ⚡ Backend API
-
-https://finance-tracker-backend-8olx.onrender.com/
+Built with a clean, responsive UI and scalable backend architecture.
 
 ---
 
@@ -54,10 +44,10 @@ https://finance-tracker-backend-8olx.onrender.com/
 ## 🔐 Authentication
 
 - User Registration
-- Secure Login
+- User Login
 - JWT Authentication
 - Protected Routes
-- Password Encryption using bcrypt
+- Password Encryption (bcrypt)
 
 ---
 
@@ -67,19 +57,18 @@ https://finance-tracker-backend-8olx.onrender.com/
 - Edit Transactions
 - Delete Transactions
 - Income & Expense Tracking
-- Category-based Transactions
-- Pagination Support
+- Category-wise Transactions
+- Pagination
 
 ---
 
 ## 📊 Dashboard
 
-- Financial Summary Cards
+- Total Income
+- Total Expense
 - Current Balance
 - Recent Activity
-- Total Income
-- Total Expenses
-- Transaction Count
+- Total Transactions
 
 ---
 
@@ -87,44 +76,42 @@ https://finance-tracker-backend-8olx.onrender.com/
 
 - Income vs Expense Pie Chart
 - Comparison Bar Chart
-- Spending Visualization
-- Financial Insights
+- Financial Visualization
+- Interactive Charts
 
 ---
 
 ## 🎯 Budget Planner
 
-- Set Monthly Budget
-- Remaining Budget Calculation
-- Budget Usage Percentage
-- Smart Budget Alerts
+- Monthly Budget Setting
+- Budget Progress
+- Remaining Balance
+- Budget Alerts
 
 ---
 
 ## 🤖 AI Financial Insights
 
-Automatically generates insights such as:
-
 - Savings Rate
+- Expense Analysis
+- Spending Recommendations
 - Highest Spending Category
-- Expense Status
-- Budget Recommendations
 
 ---
 
 ## 📄 Reports
 
-- Download PDF Financial Report
+- Download Financial Report as PDF
 - Export Transactions as CSV
 
 ---
 
-## 👤 Profile
+## 👤 User Profile
 
-- User Information
+- Profile Details
 - Account Summary
-- Total Income
-- Total Expense
+- Income Summary
+- Expense Summary
 - Current Balance
 
 ---
@@ -143,8 +130,6 @@ Automatically generates insights such as:
 - jsPDF AutoTable
 - CSS3
 
----
-
 ## Backend
 
 - Node.js
@@ -156,47 +141,36 @@ Automatically generates insights such as:
 - CORS
 - dotenv
 
----
-
-## Database
-
-- MongoDB Atlas
-
----
-
 ## Deployment
 
-| Service | Platform |
-|----------|----------|
-| Frontend | Vercel |
-| Backend | Render |
-| Database | MongoDB Atlas |
+- Frontend → Vercel
+- Backend → Render
+- Database → MongoDB Atlas
 
 ---
 
 # 📂 Project Structure
 
 ```text
-Budget-Buddy
-│
-├── client
-│   ├── public
-│   ├── src
-│   │   ├── assets
-│   │   ├── components
-│   │   ├── pages
+.
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
 │   │   ├── App.jsx
 │   │   └── main.jsx
 │   ├── package.json
 │   └── vite.config.js
 │
-├── server
-│   ├── config
-│   ├── controllers
-│   ├── middleware
-│   ├── models
-│   ├── routes
-│   ├── utils
+├── server/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
 │   ├── server.js
 │   └── package.json
 │
@@ -206,19 +180,19 @@ Budget-Buddy
 
 ---
 
-# ⚙️ Installation
+# 🚀 Installation
 
-## 1️⃣ Clone Repository
+## Clone the Repository
 
 ```bash
-git clone https://github.com/DharunAdithyaR/Finance-Tracker.git
+git clone https://github.com/DharunAdithyaR/Budget-Buddy.git
 
-cd Finance-Tracker
+cd Budget-Buddy
 ```
 
 ---
 
-## 2️⃣ Backend Setup
+## Backend Setup
 
 ```bash
 cd server
@@ -226,7 +200,7 @@ cd server
 npm install
 ```
 
-Create a **.env**
+Create a `.env` file.
 
 ```env
 PORT=5000
@@ -236,7 +210,7 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 ```
 
-Run Backend
+Start the backend.
 
 ```bash
 npm run dev
@@ -244,7 +218,7 @@ npm run dev
 
 ---
 
-## 3️⃣ Frontend Setup
+## Frontend Setup
 
 ```bash
 cd client
@@ -256,98 +230,124 @@ npm run dev
 
 ---
 
-# 📸 Application Screenshots
+# 📸 Screenshots
 
-## 🔑 Login
+## 🔐 Login
 
-<img src="./screenshots/login.png" width="100%"/>
+> Add your login screenshot here
+
+```
+screenshots/login.png
+```
 
 ---
 
 ## 🏠 Dashboard
 
-<img src="./screenshots/dashboard.png" width="100%"/>
+> Add your dashboard screenshot here
+
+```
+screenshots/dashboard.png
+```
 
 ---
 
 ## 💳 Transactions
 
-<img src="./screenshots/transactions.png" width="100%"/>
+> Add your transaction screenshot here
+
+```
+screenshots/transactions.png
+```
 
 ---
 
 ## 📊 Analytics
 
-<img src="./screenshots/analytics.png" width="100%"/>
+> Add your analytics screenshot here
+
+```
+screenshots/analytics.png
+```
 
 ---
 
 ## 🎯 Budget Planner
 
-<img src="./screenshots/budget.png" width="100%"/>
+> Add your budget planner screenshot here
+
+```
+screenshots/budget.png
+```
 
 ---
 
 ## 🤖 AI Insights
 
-<img src="./screenshots/ai-insights.png" width="100%"/>
+> Add your AI Insights screenshot here
+
+```
+screenshots/ai-insights.png
+```
 
 ---
 
 ## 📄 Reports
 
-<img src="./screenshots/reports.png" width="100%"/>
+> Add your reports screenshot here
+
+```
+screenshots/reports.png
+```
 
 ---
 
 ## 👤 Profile
 
-<img src="./screenshots/profile.png" width="100%"/>
+> Add your profile screenshot here
+
+```
+screenshots/profile.png
+```
 
 ---
 
-# 🔒 Security
+# 🔒 Security Features
 
 - JWT Authentication
 - Password Hashing using bcrypt
 - Protected API Routes
 - User-specific Data Isolation
-- Secure MongoDB Atlas Connection
+- Secure MongoDB Atlas Database
 
 ---
 
-# 📈 REST API Modules
+# 📚 REST API Modules
 
 ```
 Authentication
-│
 ├── Register
 └── Login
 
 Transactions
-│
 ├── Add
 ├── Edit
 ├── Delete
 └── Get All
 
 Budget
-│
 ├── Set Budget
 └── Get Budget
 
 Analytics
-│
 ├── Income vs Expense
 └── Category Analysis
 
 Reports
-│
 ├── PDF Export
 └── CSV Export
 
 Profile
-│
 └── User Summary
 ```
 
@@ -355,64 +355,53 @@ Profile
 
 # 🎯 Key Highlights
 
-✅ MERN Stack Project
-
-✅ JWT Authentication
-
-✅ Responsive Dashboard
-
-✅ Interactive Charts
-
-✅ Monthly Budget Planner
-
-✅ AI Financial Insights
-
-✅ PDF Report Generation
-
-✅ CSV Export
-
-✅ RESTful APIs
-
-✅ MongoDB Atlas Integration
+- ✅ Full-Stack MERN Project
+- ✅ JWT Authentication
+- ✅ Responsive UI
+- ✅ Budget Planning
+- ✅ AI Financial Insights
+- ✅ PDF Report Export
+- ✅ CSV Export
+- ✅ Interactive Charts
+- ✅ MongoDB Atlas Integration
+- ✅ RESTful APIs
 
 ---
 
 # 🎓 Learning Outcomes
 
-This project strengthened my understanding of:
+This project helped strengthen my understanding of:
 
 - Full-Stack MERN Development
 - REST API Design
 - Authentication & Authorization
-- MongoDB Data Modeling
+- MongoDB Database Design
 - React State Management
-- Chart.js Data Visualization
-- File Generation (PDF & CSV)
-- Deployment using Vercel & Render
-- Clean UI/UX Design
+- Data Visualization with Chart.js
+- PDF & CSV Report Generation
+- Cloud Deployment
 - Git & GitHub Workflow
 
 ---
 
 # 👨‍💻 Author
 
-## Dharun Adithya R
+**Dharun Adithya R**
 
-GitHub
-
-**https://github.com/DharunAdithyaR**
-
----
-
-# ⭐ Support
-
-If you found this project helpful, consider giving it a **⭐ Star** on GitHub.
-
-It motivates me to build more open-source projects!
+- GitHub: https://github.com/DharunAdithyaR
+- LinkedIn: *(Add your LinkedIn profile here)*
 
 ---
 
-# 📜 License
+# ⭐ Show Your Support
+
+If you like this project, please consider giving it a **⭐ Star** on GitHub!
+
+It helps others discover the project and motivates me to build more open-source applications.
+
+---
+
+# 📄 License
 
 This project is licensed under the **MIT License**.
 
